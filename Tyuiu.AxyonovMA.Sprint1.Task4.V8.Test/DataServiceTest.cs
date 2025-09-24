@@ -10,11 +10,11 @@ namespace Tyuiu.AxyonovMA.Sprint1.Task4.V8.Test
         public void ValidCalculate()
         {
             DataService ds = new DataService();
-            double x = 2.0;
-            double y = 1.0;
+            double x = -2.0;
+            double y = 7.0;
             double result = ds.Calculate(x, y);
-            double wait = 1.155;
-            Assert.AreEqual(wait, result);
+            double wait = -0.6;
+            Assert.AreEqual(wait, result, 0.001);
         }
     }
 }

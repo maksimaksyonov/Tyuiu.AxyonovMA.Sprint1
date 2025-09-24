@@ -7,7 +7,7 @@ namespace Tyuiu.AxyonovMA.Sprint1.Task4.V8.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Round(Math.Sqrt(Math.Abs(x - y) + 3 * x) / (3 + Math.Abs(x)), 3);
+            return Math.Round((Math.Sqrt(Math.Abs(x - y)) + 3 * x) / (3 + Math.Abs(x)), 3);
         }
     }
 }
